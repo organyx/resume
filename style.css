@@ -40,6 +40,20 @@ p {
     margin: 0.2em auto;
 }
 
+a {
+    display: inline-block;
+    text-decoration: none;
+    color: #000;
+}
+
+a:visited {
+    color: #000;
+}
+
+#contact p:hover {
+    transform: scale(1.05);
+}
+
 hr {
     border: none;
     background-color: lightgray;

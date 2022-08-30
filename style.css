@@ -12,6 +12,12 @@ h1 {
     padding-bottom: 1em;
 }
 
+@media (max-width: 500px) {
+    h1 {
+        letter-spacing: normal;
+    }
+}
+
 h2 {
     font-size: 1.5em;
     padding-bottom: 1em;
@@ -21,6 +27,19 @@ main {
     display: grid;
     grid-template-columns: 70% 30%;
     margin-top: 3em;
+}
+
+@media (max-width: 900px) {
+    main {
+        grid-template-columns: 100%;
+        padding-inline: 2em;
+    }
+}
+
+@media (max-width: 500px) {
+    main {
+        padding-inline: 1em;
+    }
 }
 
 header {
@@ -68,6 +87,12 @@ h2 {
 
 #mainLeft {
     border-right: 1px solid lightgray;
+}
+
+@media (max-width: 900px) {
+    #mainLeft {
+        border-right: unset;
+    }
 }
 
 #skills p {

@@ -99,6 +99,25 @@ h2 {
     margin-bottom: 0.4em;
 }
 
+#soft-skills div {
+    display: flex;
+    /* gap: 5px; */
+    flex-wrap: wrap;
+}
+
+#soft-skills p {
+    margin: 0.1rem 0.5rem 0.1rem 0;
+}
+
+#soft-skills p b {
+    box-shadow: 0px 0px 1px 1px rgba(112, 57, 57, 0.75);
+    -webkit-box-shadow: 0px 0px 1px 1px rgba(112, 57, 57, 0.75);
+    -moz-box-shadow: 0px 0px 1px 1px rgba(112, 57, 57, 0.75);
+    border-radius: 5px;
+    padding: 5px;
+    line-height: 30px;
+}
+
 #languages p {
     display: flex;
     justify-content: space-between;
